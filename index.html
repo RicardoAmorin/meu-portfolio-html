@@ -1,209 +1,300 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Ricardo Amorin</title>
+
+    <title>Ricardo | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Ricardo Amorin</h1>
 
-        <p>
-            <strong>Estudante de Ciência da Computação | Tecnologia da Informação</strong>
-        </p>
+        <div class="container header-container">
 
-        <address>
-            <p>
-                E-mail:
-                <a href="mailto:junioramorin.pvh@gmail.com">
-                    junioramorin.pvh@gmail.com
-                </a>
-            </p>
+            <a href="#" class="logo">
+                Dev <span>.</span>
+            </a>
 
-            <p>
-                GitHub:
-                <a href="https://github.com/SEUUSUARIO" target="_blank">
-                    Meu GitHub
-                </a>
-            </p>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#skills">Skills</a>
+                <a href="#contato">Contato</a>
+            </nav>
 
-            <p>
-                LinkedIn:
-                <a href="https://www.linkedin.com/in/ricardo-amorin/" target="_blank">
-                    Meu LinkedIn
-                </a>
-            </p>
-        </address>
+        </div>
+
     </header>
-
-    <hr>
-
-    <nav>
-        <h2>Navegação</h2>
-
-        <ul>
-            <li><a href="#sobre">Sobre Mim</a></li>
-            <li><a href="#formacao">Formação Acadêmica</a></li>
-            <li><a href="#experiencia">Experiência</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-        </ul>
-    </nav>
-
-    <hr>
 
     <main>
 
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
+        <!-- HERO -->
+        <section id="home" class="hero">
 
-            <p>
-                Sou estudante de Ciência da Computação, com interesse em
-                desenvolvimento de software, infraestrutura e segurança da informação.
-            </p>
+            <div class="container">
 
-            <p>
-                Tenho conhecimentos em desenvolvimento web, programação,
-                bancos de dados e tecnologias relacionadas à infraestrutura de TI.
-                Busco constantemente desenvolver minhas habilidades técnicas
-                por meio de estudos e projetos práticos.
-            </p>
+                <div class="hero-content">
+
+                    <p>OLÁ, EU SOU</p>
+
+                    <h1>Ricardo<span>.</span></h1>
+
+                    <h2>Desenvolvedor | TI | Cybersecurity</h2>
+
+                    <p class="hero-description">
+                        Sou estudante de tecnologia apaixonado por desenvolvimento,
+                        infraestrutura e cibersegurança. Estou sempre buscando aprender
+                        novas tecnologias e transformar conhecimento em projetos.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="https://github.com/RicardoAmorin" 
+                            target="_blank" 
+                            class="btn-primary">
+                            Ver projetos
+                        </a>
+
+                        <a href="/curriculo/Ricardo-curriculo-dev.pdf" 
+                        class="btn-secondary"
+                        download="">
+                            Download CV
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+
+                    <img src="img/imagem.jpg" alt="Foto de Ricardo">
+
+                </div>
+
+            </div>
+
         </section>
 
-        <hr>
 
-        <section id="formacao">
-            <h2>Formação Acadêmica</h2>
+        <!-- SOBRE -->
+        <section id="sobre" class="about">
 
-            <ol>
-                <li>
-                    <strong>Ciência da Computação</strong><br>
-                    Graduação em andamento.
-                </li>
-            </ol>
+            <div class="container">
+
+                <div class="about-content">
+
+                    <p class="section-title">
+                        SOBRE MIM
+                    </p>
+
+                    <h2>
+                        Conheça um pouco da minha trajetória
+                    </h2>
+
+                    <p class="about-description">
+                        Sou estudante de tecnologia com interesse em desenvolvimento,
+                        infraestrutura e cibersegurança. Gosto de aprender na prática
+                        e transformar conhecimentos em projetos.
+                    </p>
+
+
+                    <!-- CARDS -->
+
+                    <div class="about-cards">
+
+                        <div class="about-card">
+
+                            <h3>Formação</h3>
+
+                            <p>
+                                Ciência da Computação | Em Andamento
+                            </p>
+
+                        </div>
+
+
+                        <div class="about-card">
+
+                            <h3>Foco</h3>
+
+                            <p>
+                                Desenvolvimento e Cibersegurança
+                            </p>
+
+                        </div>
+
+
+                        <div class="about-card">
+
+                            <h3>Objetivo</h3>
+
+                            <p>
+                                Evoluir profissionalmente
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <hr>
+        
+        <section id="skills" class="skills">
 
-        <section id="experiencia">
-            <h2>Experiência Profissional</h2>
+            <div class="container">
 
-            <article>
-                <h3>Estagiário de Tecnologia da Informação</h3>
+                <div class="skills-content">
 
-                <p>
-                    Atuação com suporte técnico, manutenção de equipamentos
-                    e atividades relacionadas à infraestrutura de TI.
-                </p>
+                    <p class="section-title">
+                        SKILLS
+                    </p>
 
-                <ul>
-                    <li>Suporte aos usuários;</li>
-                    <li>Manutenção e configuração de computadores;</li>
-                    <li>Auxílio em atividades de infraestrutura;</li>
-                    <li>Configuração e diagnóstico de redes;</li>
-                    <li>Atendimento e resolução de problemas técnicos.</li>
-                </ul>
-            </article>
+                    <h2>
+                        Tecnologias e conhecimentos
+                    </h2>
+
+                    <p class="skills-description">
+                        Algumas das tecnologias que venho estudando e utilizando em projetos
+                    </p>
+
+                    <div class="skills-grid">
+                        
+                        <div class="skill-card">
+
+                            <i class="devicon-html5-plain"></i>
+
+                            <h3>
+                                HTML
+                            </h3>
+
+                            <p>
+                                Estrutura de paginas web
+                            </p>
+                        </div>
+
+                        <div class="skill-card">
+
+                            <i class="devicon-javascript-plain"></i>
+
+                            <h3>
+                                JAVASCRIPT
+                            </h3>
+
+                            <p>
+                                Interatividade em páginas web
+                            </p>
+                        </div>
+
+                        <div class="skill-card">
+
+                            <i class="devicon-css3-plain"></i>
+
+                            <h3>
+                                CSS
+                            </h3>
+
+                            <p>
+                                Estilização de páginas web
+                            </p>
+                        </div>
+
+                        <div class="skill-card">
+
+                            <i class="devicon-python-plain"></i>
+
+                            <h3>
+                                PYTHON
+                            </h3>
+
+                            <p>
+                                Linguagem de programaçao
+                            </p>
+                        </div>
+
+                        <div class="skill-card">
+
+                            <i class="devicon-mysql-original"></i>
+
+                            <h3>
+                                SQL/MYSQL
+                            </h3>
+
+                            <p>
+                                Banco de dados
+                            </p>
+                        </div>
+
+                        <div class="skill-card">
+
+                            <i class="devicon-git-plain"></i>
+
+                            <h3>
+                                GIT
+                            </h3>
+
+                            <p>
+                                Versionamento de codigos
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
         </section>
 
-        <hr>
+        <section id="contato" class="contact">
 
-        <section id="habilidades">
-            <h2>Habilidades Técnicas</h2>
+            <div class="container">
 
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Categoria</th>
-                        <th>Tecnologias</th>
-                        <th>Nível</th>
-                    </tr>
-                </thead>
+                <div class="contact-content">
 
-                <tbody>
-                    <tr>
-                        <td>Desenvolvimento Web</td>
-                        <td>HTML5, CSS3, JavaScript</td>
-                        <td>Iniciante / Intermediário</td>
-                    </tr>
+                    <p class="section-title">
+                        CONTATO
+                    </p>
 
-                    <tr>
-                        <td>Programação</td>
-                        <td>Python</td>
-                        <td>Iniciante / Intermediário</td>
-                    </tr>
+                    <h2>
+                        Vamos nos conectar
+                    </h2>
 
-                    <tr>
-                        <td>Banco de Dados</td>
-                        <td>SQL, MySQL, PostgreSQL</td>
-                        <td>Iniciante / Intermediário</td>
-                    </tr>
+                    <p class="contact-decription">
+                        Acesse minhas redes profissionais.
+                    </p>
 
-                    <tr>
-                        <td>Infraestrutura</td>
-                        <td>Redes, DNS, DHCP, IP e suporte técnico</td>
-                        <td>Iniciante / Intermediário</td>
-                    </tr>
+                </div>
 
-                    <tr>
-                        <td>Segurança</td>
-                        <td>Nmap, Burp Suite, Wireshark e Linux</td>
-                        <td>Iniciante</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                <div class="contact-links">
 
-        <hr>
+                    <a href="https://github.com/RicardoAmorin" target="_blank">
+                        GitHub
+                    </a>
 
-        <section id="projetos">
-            <h2>Projetos</h2>
+                    <a href="https://www.linkedin.com/in/ricardo-amorin/w" target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
 
-            <article>
-                <h3>Portfólio HTML5</h3>
+            </div>
 
-                <p>
-                    Desenvolvimento de um currículo web utilizando HTML5
-                    semântico e hospedagem por meio do GitHub Pages.
-                </p>
-            </article>
-
-            <article>
-                <h3>Landing Pages</h3>
-
-                <p>
-                    Desenvolvimento de páginas web utilizando HTML, CSS e
-                    JavaScript, com foco em apresentação de produtos e serviços.
-                </p>
-            </article>
-
-            <article>
-                <h3>Projetos de Segurança da Informação</h3>
-
-                <p>
-                    Estudos práticos de segurança da informação e redes,
-                    utilizando ambientes de laboratório e ferramentas
-                    como Nmap, Burp Suite e Wireshark.
-                </p>
-            </article>
         </section>
 
     </main>
 
-    <hr>
-
-    <footer>
-        <p>
-            <small>
-                &copy; 2026 - Ricardo Amorin
-            </small>
-        </p>
-    </footer>
-
 </body>
-
 </html>
